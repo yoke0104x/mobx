@@ -66,3 +66,25 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+#### 1. 需要下载三个包
+```js
+    "babel-plugin-transform-decorators-legacy": "^1.3.5",	支持装饰器
+    "mobx": "^5.7.0",	支持mobx
+    "mobx-react": "^5.4.2"	支持合react集成
+```
+#### 2. 导出webapck配置
+```js
+    npm run eject
+```
+#### 3. 再package.json里配置babel，支持装饰器语法
+```js
+    "babel": {
+        "presets": [
+            "react-app"
+        ], 
+        "plugins": [
+            ["@babel/plugin-proposal-decorators", { "legacy": true }]
+        ]
+    }
+```
