@@ -1,30 +1,5 @@
-/*
- * @Author: dingmeng
- * @Date: 2020-06-04 17:59:57
- * @LastEditors: dingmeng
- * @LastEditTime: 2020-06-04 18:40:36
- * @FilePath: \新建文件夹\scripts\test.js
- * @name: 
- */ 
+
 'use strict';
-
-去问驱蚊器我1去问驱蚊器饿
-12313
-12313123
-去啊委屈饿·2131232213123131二七问2324242
-123
-1232342424w
-123w42342
-1
-31、
-reswer
-
-1231
-
-321
-322
-34
-res
 // Do this as the first thing so that any code reading it knows the right env.
 process.env.BABEL_ENV = 'test';
 process.env.NODE_ENV = 'test';
@@ -36,11 +11,11 @@ process.env.PUBLIC_URL = '';
 process.on('unhandledRejection', err => {
   throw err;
 });
-1/sdasdwetwrtwrwrw4345rfdfgdfg
+
 // Ensure environment variables are read.
 require('../config/env');
-dge4r5tetrfe
-rertet
+
+
 const jest = require('jest');
 const execSync = require('child_process').execSync;
 let argv = process.argv.slice(2);
@@ -65,7 +40,7 @@ function isInMercurialRepository() {
 
 // Watch unless on CI or explicitly running all tests
 if (
-  !process.env.CI &&23442234
+  !process.env.CI &&
   argv.indexOf('--watchAll') === -1
 ) {
   // https://github.com/facebook/create-react-app/issues/5210
@@ -73,15 +48,5 @@ if (
   argv.push(hasSourceControl ? '--watch' : '--watchAll');
 }
 
-23424234243243
-3
-2
-4
-2
-43
-2
-23424
 
-
-这是dev便不能寄的数据
 jest.run(argv);
