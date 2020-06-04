@@ -2,7 +2,7 @@
  * @Author: dingmeng
  * @Date: 2020-06-04 17:59:57
  * @LastEditors: dingmeng
- * @LastEditTime: 2020-06-04 18:19:36
+ * @LastEditTime: 2020-06-04 18:28:55
  * @FilePath: \新建文件夹\scripts\test.js
  * @name: 
  */ 
@@ -68,4 +68,7 @@ if (
 }
 
 23424
+
+
+这是dev便不能寄的数据
 jest.run(argv);
