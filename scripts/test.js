@@ -2,7 +2,7 @@
  * @Author: dingmeng
  * @Date: 2020-06-04 17:59:57
  * @LastEditors: dingmeng
- * @LastEditTime: 2020-06-04 18:10:22
+ * @LastEditTime: 2020-06-04 18:15:31
  * @FilePath: \新建文件夹\scripts\test.js
  * @name: 
  */ 
@@ -11,9 +11,7 @@
 
 
 
-
-
-console.log("这是red分支上面的东西")
+去啊委屈饿·2131232213
 // Do this as the first thing so that any code reading it knows the right env.
 process.env.BABEL_ENV = 'test';
 process.env.NODE_ENV = 'test';
