@@ -11,10 +11,10 @@
 去问驱蚊器我1
 12313
 12313123
-去啊委屈饿·2131232213
+去啊委屈饿·2131232213123131二七问2324242
 123
-123
-123
+1232342424w
+123w42342
 1
 31、
 reswer
@@ -59,7 +59,7 @@ function isInMercurialRepository() {
 
 // Watch unless on CI or explicitly running all tests
 if (
-  !process.env.CI &&
+  !process.env.CI &&23442234
   argv.indexOf('--watchAll') === -1
 ) {
   // https://github.com/facebook/create-react-app/issues/5210
@@ -67,5 +67,5 @@ if (
   argv.push(hasSourceControl ? '--watch' : '--watchAll');
 }
 
-
+23424
 jest.run(argv);
